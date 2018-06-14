@@ -2,6 +2,7 @@
 body {
     background-color: #ffffff;
     border-color: #dddddd;
+    background: url("../images/what-the-hex.png");
 }
 
 #navBar{
@@ -14,7 +15,6 @@ body {
     width: 100%;
     padding-top:15px;
     padding-bottom:15px;
-    
 }
 
 #navTypes{
