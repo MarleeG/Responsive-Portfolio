@@ -84,7 +84,7 @@ img{
     height: auto;
     }
 
-#bio{
+.bio{
     text-align: left;
     line-height: 25px;
 }
