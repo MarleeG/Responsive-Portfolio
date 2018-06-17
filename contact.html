@@ -1,63 +1,74 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        <link rel="stylesheet" href="assets/css/reset.css"/>
-        <link rel="stylesheet" href="assets/css/style.css"/>
-        <meta charset="UTF-8"/>
-        <title>Marlee's Portfolio</title>
-    </head>
+<html>
 
-    <body>
-        <section id="navBar" >        
-                <p id="navTypes" class="para"> 
-                    <a href="index.html">
-                        About | 
-                    </a>
-                    <a href="portfolio.html">                
-                            Portfolio 
-                    </a>
-                        | 
-                    <a href="portfolio.html">
-                           Contact  
-                    </a>
-                </p>
-            <aside>
-                    <h1 class="heading" id="name">
-                        Marlee Gerard  
-                    </h1>
-            </aside> 
-        </section>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
 
-        <section id="mainContent">
-            <h1 id="heading2" class="heading">
-                Contact
-            </h1>
-            <form action="#" class="inputs">    
-                Name
-                <br>
-                <input type="text" name="firstname" placeholder="John Smith" size="130" style="height:20px">
-                <br>
-                <br>
-                Email
-                <br>
-                <input type="text" name="email" placeholder="example@gmail.com" size="130" style="height:20px">
-                <br>
-                <br>
-                Message
-                <br>
-                <input type="text" name="message" size="130" style="height:170px">
-                <br>
-                <br>
-                <input type="submit" value="Submit" id="submit">
-            </form>
-        </section>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="name">
+            <h1>Marlee Gerard</h1>
+        </div>
+    </header>
 
 
-        <section id="footer">
-            <div>
-                copyright &copy;
+    <nav class="navBar">
+        <div>
+            <p class="navType ">
+                <a href="index.html">About</a>
+                <span style="color:#dddddd;">|</span>
+                <a href="portfolio.html">Portfolio</a>
+                <span style="color:#dddddd;">|</span>
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </nav>
+
+    <section>
+        <!-- main content heading-->
+        <div class="container main-content main-space main-space2">
+            <div class="row">
+                <div class="col heading2">
+                    <h2>
+                        Contact
+                    </h2>
+                </div>
+
+                <div>
+                    <form action="#" class="inputs">
+                        Name
+                        <br>
+                        <input type="text" class="input" name="firstname" placeholder="John Smith" size="111" style="height:20px">
+                        <br>
+                        <br> Email
+                        <br>
+                        <input type="text" class="input" name="email" placeholder="example@gmail.com" size="111" style="height:20px">
+                        <br>
+                        <br> Message
+                        <br>
+                        <input type="text" class="input" name="message" size="111" style="height:170px">
+                        <br>
+                        <br>
+                        <input type="submit" value="Submit" class="submit">
+                    </form>
+                </div>
             </div>
-        </section>
-        
-    </body>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <div class="row">
+        <footer>
+            copyright&copy;
+        </footer>
+    </div>
+
+</body>
+
 </html>
