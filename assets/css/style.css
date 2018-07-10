@@ -141,7 +141,24 @@ footer{
     font-family: 'Questrial', sans-serif;
     padding-top: 35px;
     padding-bottom: 35px;
+}
 
+/* added to portfolio */
+#giphtastic{
+    border-radius: 10px;
+    border-color: #dddddd;
+    border-width: 2px;
+    border-style: solid;
+    width: 200px;
+    height: auto;
+    background-image: url("../images/pink_rice.png");
+    margin-top: 30px;
+    margin-left: 3px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 a:link{
